@@ -143,6 +143,15 @@ ul li:before {
   line-height: 16px;
 }
 
+ul li post {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 11px;
+  color: #b5e853;
+  margin-left: -37px;
+  margin-right: 21px;
+  line-height: 16px;
+}
+
 blockquote {
   color: #aaa;
   padding-left: 10px;
@@ -245,3 +254,8 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Posts */
+#posts li { list-style-type: none; }
+#post-page { margin-bottom: 1.5em; }
+@media (min-width: 940px) { #post-page { margin-bottom: 1.3334em; } }
